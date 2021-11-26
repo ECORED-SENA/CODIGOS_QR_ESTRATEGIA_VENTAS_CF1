@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CODIGOS_QR_ESTRATEGIA_VENTAS_CF1/](https://ecored-sena.github.io/CODIGOS_QR_ESTRATEGIA_VENTAS_CF1/)
 
 #
 
