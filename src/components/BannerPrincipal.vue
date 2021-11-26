@@ -123,25 +123,25 @@ export default {
 
 .imagen_flotante
   &_1
-    animation: float3 12s ease-in-out infinite
+    animation: float1 12s ease-in-out infinite
     position: absolute
     top: 50%
     left: 0%
     width: 35px
   &_2
-    animation: float2 7s ease-in-out infinite
+    animation: float1 7s ease-in-out infinite
     position: absolute
     top: 15%
     left: 64%
     width: 40px
   &_3
-    animation: float3 10s ease-in-out infinite
+    animation: float1 10s ease-in-out infinite
     position: absolute
     top: 85%
     left: 30%
     width: 60px
   &_4
-    animation: float2 5s ease-in-out infinite
+    animation: float1 5s ease-in-out infinite
     position: absolute
     top: 58%
     left: 83%
@@ -156,11 +156,11 @@ export default {
 		transform: translatex(20px)
 @keyframes float2
 	0%
-  	transform: translatey(0px)
+  	transform: translatey(20px)
 	50%
-		transform: translatey(-20px)
+		transform: translatey(0px)
 	100%
-		transform: translatey(s0px)
+		transform: translatey(20px)
 @keyframes float3
 	0%
   	transform: translatey(0px)
