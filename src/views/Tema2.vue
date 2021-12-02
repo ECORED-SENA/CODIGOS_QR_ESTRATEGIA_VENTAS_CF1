@@ -8,12 +8,12 @@
         span 2
       h1 Publicidad
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.bgImg01.mb-4
       .col-lg-10.mb-4
-        .bloque-texto-c.color-secundario.p-4(data-aos="fade-right")
-          i.fas.fa-quote-right
-          h4.mb-2 La palabra publicidad, la cual significa “enfocar la mente hacía”, procede del latín ¨advertere¨, por lo que deben elegir muy bien la propagación que se realizarán en las empresas, por lo tanto, se mencionan algunas de ellas.
-          span - Universidad del Istmo de Guatemala -UNIS-, 2004.
+        .tarjeta.color-violet.p-4(data-aos="fade-right")
+
+          h4.mb-2 La palabra publicidad, la cual significa “enfocar la mente hacía”, procede del latín ¨#[i advertere]¨, por lo que deben elegir muy bien la propagación que se realizarán en las empresas, por lo tanto, se mencionan algunas de ellas.
+          span - Universidad del Istmo de Guatemala -UNIS-, 2004:
 
       .col-lg-8
         .tarjeta.tarjeta--azul.p-1.mb-5
@@ -37,10 +37,10 @@
               h2.text-center Publicidad cooperativa
               p.text-center Cuando se da colaboración entre los anunciantes nacionales y los comerciantes locales.
       
-        p.mb-4 La publicidad cumple un papel fundamental en las empresas, permite seducir o dar a conocer a una audiencia los productos y servicios por diferentes canales de comunicación de manera offline u online.
+        p.mb-4 La publicidad cumple un papel fundamental en las empresas, permite seducir o dar a conocer a una audiencia los productos y servicios por diferentes canales de comunicación de manera #[i offline u online].
 
     .row.justify-content-center
-      .col-lg-1(data-aos="fade-down")
+      .col-lg-1.col-md-3.col-sm-3(data-aos="fade-down")
         img.img-relative(src='@/assets/curso/tema2/img01.svg')
     .row.justify-content-center.mb-4
       .col-lg-4.tarjeta.color-gray.p-4(data-aos="fade-up")
@@ -70,20 +70,20 @@
         .h4.mb-4
           <div style="color:#7714B7;"> ● Tipos de publicidad </div>
         p.mb-0 Para dar a conocer una empresa, se utilizan diferentes medios publicitarios que nos ayudarán a posicionar la marca en el mercado. Para poder desarrollarlo se emplea el material impreso físico que el cliente puede recibir y dedicarle el tiempo para su revisión o lectura. A continuación, podemos ver los tipos de publicidad empleados:
-      .col-lg-10
-        LineaTiempoD.color-acento-contenido.mb-5
+      .col-lg-8
+        LineaTiempoD.color-secundario.mb-5
           .row.justify-content-center(numero="1" titulo="Publicidad impresa")
             .col-md-11.mb-4.mb-md-0
               p.mb-4 Es todo el material POP como son los folletos, volantes, revistas especializadas, plegables, insertos, cupones o bonos que nos ayudan a impulsar y generar la acción de ventas por lo general en la tienda física. Este material se le entrega al cliente con toda la información de los productos o una campaña especial de temporada con descuentos especiales.
               figure
                 img(src='@/assets/curso/tema2/img02.png')
-          .row.justify-content-center(numero="2" titulo="Publicidad online")
+          .row.justify-content-center(numero="2" titulo="Publicidad <em>online</em>")
             .col-md-11.mb-4.mb-md-0
-              p.mb-4 Es la que realizamos en internet como son páginas web. redes sociales, buscadores.
+              p.mb-4 Es la que realizamos en internet como son páginas #[i web]. redes sociales, buscadores.
               p.mb-4 Está de moda por su bajo costo de inversión y permite una interacción en tiempo real por medio de las herramientas tecnológicas.
               figure
                 img(src='@/assets/curso/tema2/img03.png')
-          .row.justify-content-center(numero="3" titulo="Publicidad en medios de comunicacion")
+          .row.justify-content-center(numero="3" titulo="Publicidad en medios de comunicación")
             .col-md-11.mb-4.mb-md-0
               p.mb-4 Las empresas deciden utilizar para realizar la publicidad de sus productos, medios tradicionales como la televisión, la cual es el medio favorito de los anunciantes y la radio que cada vez utilizan menos para pautar.
               figure
@@ -109,24 +109,26 @@
               figure
                 img(src='@/assets/curso/tema2/img08.png')
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-10.mb-4
         .h4.mb-4
           <div style="color:#7714B7;"> ● Tendencias de innovación </div>
 
         .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
-          p La pandemia que inició en el año 2020 aceleró las tendencias empresariales tecnológicas a pasos agigantados y la transformación digital tomó el liderazgo en las estrategias de mercadeo. Para las organizaciones es necesario contar con plataformas digitales que faciliten al consumidor las compras, ventas y pagos de manera digital de los productos o servicios que adquieren de manera online o en la tienda física.
+          p La pandemia que inició en el año 2020 aceleró las tendencias empresariales tecnológicas a pasos agigantados y la transformación digital tomó el liderazgo en las estrategias de mercadeo. Para las organizaciones es necesario contar con plataformas digitales que faciliten al consumidor las compras, ventas y pagos de manera digital de los productos o servicios que adquieren de manera #[i online] o en la tienda física.
         
         p La practicidad es lo que busca el cliente para realizar las actividades diarias, y la innovación tecnológica, logra cumplir este objetivo con aplicaciones que, desde su teléfono, sin importar el lugar donde esté, pueda tener información rápida y efectiva. 
       .col-lg-6.tarjeta.color-light-blue-r.mb-4
         p.text-center.mb-0 Las tendencias innovadoras actuales para empresas son:
-      .col-lg-10.mb-4
+      .col-lg-10.tarjeta.color-gradient-bottom.mb-4
         LineaTiempoB.mb-4(:datos="datosLineaTiempoB")
-        hr
+        figure.mb-4 
+          img(src='@/assets/curso/hr.svg')
         p Y las herramientas tecnológicas que se están implementados en esta nueva era digital son:
+      .col-lg-10.mb-4
+        SlyderC.p-0(:datos="datosSlyder")
       .col-lg-10
-        SlyderC.mb-5(:datos="datosSlyder")
-        br
+        img(src='@/assets/curso/hr.svg')
     
     .h4.mb-4
       <div style="color:#7714B7;"> ● Piezas publicitarias y material de promoción </div>
@@ -149,11 +151,11 @@
           .tarjeta.color-gray.p-3(x="16%" y="35%" numero="+")
             figure.mb-4
               img(src='@/assets/curso/tema2/img20.png')
-            p Se ubica en la web y en redes sociales, se integra el contenido a la plataforma donde se publica para promocionar la marca.
+            p Se ubica en la #[i web] y en redes sociales, se integra el contenido a la plataforma donde se publica para promocionar la marca.
           .tarjeta.color-gray.p-3(x="38%" y="35%" numero="+")
             figure.mb-4
               img(src='@/assets/curso/tema2/img21.png')
-            p Conocidos como banner, es un elemento publicitario por clic en internet que colocamos en portales o en la web.
+            p Conocidos como #[i banner] , es un elemento publicitario por clic en internet que colocamos en portales o en la #[i web].
           .tarjeta.color-gray.p-3(x="62%" y="35%" numero="+")
             figure.mb-4
               img(src='@/assets/curso/tema2/img22.png')
@@ -164,20 +166,21 @@
             p Mensajes que son enviados por la empresa con la finalidad de adquirir nuevos clientes.
           .tarjeta.color-gray.p-3(x="16%" y="82%" numero="+")
             figure.mb-4
-              img(src='@/assets/curso/tema2/img24.png')
-            p Fortalece las campañas tradicionales y es más efectivo para llegar a la audiencia.
+            img(src='@/assets/curso/tema2/img27.png')
+            p Los consumidores pasan horas navegando y las campañas se deben  hacer pensando en los dispositivos móviles.
           .tarjeta.color-gray.p-3(x="38%" y="82%" numero="+")
-            figure.mb-4
-              img(src='@/assets/curso/tema2/img25.png')
-            p Anuncios display  personalizados en website de forma inteligente.
-          .tarjeta.color-gray.p-3(x="62%" y="82%" numero="+")
             figure.mb-4
               img(src='@/assets/curso/tema2/img26.png')
             p Segmentaciones precisas con millones de usuarios  para llegar a un público objetivo.
+          .tarjeta.color-gray.p-3(x="62%" y="82%" numero="+")
+            figure.mb-4
+              img(src='@/assets/curso/tema2/img25.png')
+            p Anuncios display  personalizados en #[i website] de forma inteligente.
           .tarjeta.color-gray.p-3(x="84%" y="82%" numero="+")
             figure.mb-4
-              img(src='@/assets/curso/tema2/img27.png')
-            p Los consumidores pasan horas navegando y las campañas se deben  hacer pensando en los dispositivos móviles.
+                img(src='@/assets/curso/tema2/img24.png')
+            p Fortalece las campañas tradicionales y es más efectivo para llegar a la audiencia.
+              
     separador
 </template>
 
@@ -188,7 +191,7 @@ export default {
     datosLineaTiempoB: [
       {
         titulo: 'Globalización empresarial',
-        texto: 'Tener presencia física y también online.',
+        texto: 'Tener presencia física y también <em>online</em>.',
         icono: require('@/assets/curso/tema2/img09.svg'),
       },
       {

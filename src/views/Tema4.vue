@@ -7,10 +7,11 @@
       .titulo-principal__numero
         span 4
       h1 Valor de marca
-    p.mb-4 La identidad de una marca es su ADN lo representa el nombre y el prestigio que se le ha creado en el medio comercial como la pueden ver los clientes y que piensa la competencia, la marca genera respeto y confianza con lo que se oferta. El valor de marca genera beneficios para el cliente y para la empresa. A continuación, podemos observar en la siguiente tabla los beneficios de la marca comparados con el cliente & empresa.
 
-    .row.justify-content-center.mb-4
-      .col-lg-7.mb-4
+    .row.justify-content-center.bgImg03.mb-4
+      .col-lg-12.mb-4
+        p.mb-4 La identidad de una marca es su ADN lo representa el nombre y el prestigio que se le ha creado en el medio comercial como la pueden ver los clientes y que piensa la competencia, la marca genera respeto y confianza con lo que se oferta. El valor de marca genera beneficios para el cliente y para la empresa. A continuación, podemos observar en la siguiente tabla los beneficios de la marca comparados con el cliente & empresa.
+      .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
           h5 Tabla 2.
           span Beneficios de la marca para el cliente y la empresa
@@ -36,9 +37,11 @@
               tr
                 th Post -venta
                 td Estrategias empresariales
+
+    .row.justify-content-center.mb-4  
       .col-lg-10.mb-4
         .bloque-texto-c.color-secundario.p-4(data-aos="fade-right")
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left
           h4.mb-2 Definen el brand equity o capital de marca como “el valor añadido que se asigna a un producto o servicio a partir de la marca que ostentan. Este valor puede reflejarse en la forma en que los consumidores piensan, sienten y actúan respecto de la marca, así como en los precios, la participación de mercado y la rentabilidad que genera la marca para la empresa”.
           span - Kotler y Keller (p.243)
       .col-lg-4.mb-4
@@ -79,34 +82,34 @@
           p La marca contiene los siguientes componentes:
 
     .row.justify-content-center.mb-4
-      .col-lg-2.d-flex
+      .col-lg-2.col-sm-6.d-flex
         .tarjeta.color-light-violet.p-4.mb-4.w-100.position-relative(data-aos="fade-right")
           .row.justify-content-center.mb-4
-            .col-lg-9
+            .col-lg-9.col-sm-7
               img(src='@/assets/curso/tema4/img02.svg')
           .h4.text-center Lealtad
-      .col-lg-2.d-flex
+      .col-lg-2.col-sm-6.d-flex
         .tarjeta.color-light-violet.p-4.mb-4.w-100.position-relative(data-aos="flip-up")
           .row.justify-content-center.mb-4
-            .col-lg-6
+            .col-lg-6.col-sm-4
               img(src='@/assets/curso/tema4/img03.svg')
           .h4.text-center Reconocimiento
-      .col-lg-2.d-flex
+      .col-lg-2.col-sm-6.d-flex
         .tarjeta.color-light-violet.p-4.mb-4.w-100.position-relative(data-aos="flip-down")
           .row.justify-content-center.mb-4
-            .col-lg-7
+            .col-lg-7.col-sm-6
               img(src='@/assets/curso/tema4/img04.svg')
           .h4.text-center Calidad
-      .col-lg-2.d-flex
+      .col-lg-2.col-sm-6.d-flex
         .tarjeta.color-light-violet.p-4.mb-4.w-100.position-relative(data-aos="flip-up")
           .row.justify-content-center.mb-4
-            .col-lg-8
+            .col-lg-8.col-sm-7
               img(src='@/assets/curso/tema4/img05.svg')
           .h4.text-center Asociaciones a la marca
-      .col-lg-2.d-flex
+      .col-lg-2.col-sm-6.d-flex
         .tarjeta.color-light-violet.p-4.mb-4.w-100.position-relative(data-aos="fade-left")
           .row.justify-content-center.mb-4
-            .col-lg-6
+            .col-lg-6.col-sm-6
               img(src='@/assets/curso/tema4/img06.svg')
           .h4.text-center Propiedad de la marca
     
@@ -118,10 +121,10 @@
         
         p.mb-4 El periodo acelerado de innovación que trajo la pandemia ha incrementado significativamente el uso de nuevas tecnologías, herramientas y plataformas digitales, canales de atención para la venta de los productos y servicios en los diferentes sectores comerciales. Buscando siempre mejores relaciones con los clientes.
         .cajon.color-acento-contenido.p-4.mb-4(data-aos="fade-right")
-          p El código QR evoluciona y es un elemento útil. Se convierte en un aliado para las estrategias de marketing en las empresas, ya que responde a una necesidad real del usuario. El uso de teléfonos inteligentes nos permite el escaneo del código QR brindando información y ejecución con inmediatez de compras y transacciones al cliente.
+          p El código QR evoluciona y es un elemento útil. Se convierte en un aliado para las estrategias de #[i marketing] en las empresas, ya que responde a una necesidad real del usuario. El uso de teléfonos inteligentes nos permite el escaneo del código QR brindando información y ejecución con inmediatez de compras y transacciones al cliente.
         .h4.mb-4
           <div style="color:#7714B7;"> ● Mapa conceptual </div>
-        img(src='@/assets/curso/tema4/img07.svg')(data-aos="flip-up")
+        img(src='@/assets/curso/tema4/img07.png')(data-aos="flip-up")
 
 </template>
 <script>

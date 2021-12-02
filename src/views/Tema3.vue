@@ -9,7 +9,7 @@
       h1 Innovación y tecnología
     .row.justify-content-center.mb-4
       .col-lg-8
-        p Las empresas innovadoras deben cambiar para evolucionar si no implementan nuevas tecnologías tienden a salir del mercado. Transformarse les permite crecer y atraer consumidores al negocio.
+        p.text-center Las empresas innovadoras deben cambiar para evolucionar si no implementan nuevas tecnologías tienden a salir del mercado. Transformarse les permite crecer y atraer consumidores al negocio.
 
     .row.justify-content-center.mb-0
       .col-lg-4.tarjeta.color-gray-r.p-2(data-aos="fade-right")
@@ -31,11 +31,11 @@
       .col-lg-10
         p.mb-4 Según Pere Escorsa & Jaume Valls (2003):
         .row.justify-content-center.tarjeta.color-violet-r(data-aos="fade-right")
-          .col-lg-10
+          .col-lg-10.col-8.col-sm-12
             .row.p-4
               br
-              p Basados en experiencias anteriores, la creatividad y la inspiración del modelo de innovación que se quiere aplicar tecnológico o comercial llevamos a la empresa a un proceso de transformación de sus productos. Con ayuda de la imaginación, aplicando tecnología y uso de la web y excelente un talento humano no solo se innova se pueden generar nuevas estrategias de comunicación, modelos de negocios, nuevas líneas de productos, alianzas, y punto de venta que permiten la expansión a nivel global.     
-          .col-lg-2
+              p Basados en experiencias anteriores, la creatividad y la inspiración del modelo de innovación que se quiere aplicar tecnológico o comercial llevamos a la empresa a un proceso de transformación de sus productos. Con ayuda de la imaginación, aplicando tecnología y uso de la #[i web] y excelente un talento humano no solo se innova se pueden generar nuevas estrategias de comunicación, modelos de negocios, nuevas líneas de productos, alianzas, y punto de venta que permiten la expansión a nivel global.     
+          .col-lg-2.col-4.col-sm-6.d-flex
             img(src='@/assets/curso/tema3/img01.png')(data-aos="fade-left")
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
@@ -79,7 +79,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
         .tarjeta.color-gray-r.p-4
-          p Por medio de los smartphones o teléfonos inteligentes, se pueden realizar varias acciones que permite utilizar el scanner. Para conocer un poco más del tema de los códigos QR lo invitamos a ver un ejemplo en el siguiente video #[i The Hointer Shopping Experience: Buying jeans from a robot-powered apparel startup], el cual se encuentra en el material complementario.
+          p Por medio de los #[i smartphones] o teléfonos inteligentes, se pueden realizar varias acciones que permite utilizar el scanner. Para conocer un poco más del tema de los códigos QR lo invitamos a ver un ejemplo en el siguiente video #[i The Hointer Shopping Experience: Buying jeans from a robot-powered apparel startup], el cual se encuentra en el material complementario.
       .col-lg-10.mb-4
         .h4.mb-4
           <div style="color:#7714B7;"> ● Escáner QR y código de barras </div>
@@ -91,7 +91,8 @@
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-left")
             p.mb-0 Existen escáner de mano y fijos, como los que se utilizan en las cajas de supermercados. La función del escáner es leer el símbolo del código de barras y proporcionar una salida eléctrica a la computadora, correspondiente a las barras y espacios del código de barras. Sin embargo, es el que reconoce la simbología del código, analiza el contenido del código de barras leído y transmite dichos datos a la computadora en un formato de datos tradicional.
-
+      .col-lg-10
+        p.text-center A continuación, estudiaremos cuáles son los tipos de códigos QR.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
       h5 Tabla 1.
       span Tipos de códigos QR
@@ -105,8 +106,8 @@
             th.text-white Observación
         tbody
           tr
-            th Sitio web
-            td Los usuarios serán dirigidos a una página web y descubrirán el contenido disponible.
+            th Sitio #[i web]
+            td Los usuarios serán dirigidos a una página #[i web] y descubrirán el contenido disponible.
           tr
             th Tarjeta comercial
             td Crea la tarjeta de contactos y puede introducir sus nombres, dirección, número de teléfono, correo electrónico, etc.
@@ -130,9 +131,9 @@
             td Un texto sin formato se codifica y se mostrará en la pantalla después de escanear
           tr
             th Dinámica QR
-            td Muy similar a la Tipo de sitio web o de visita, sino que ofrece nuevas características útiles.
+            td Muy similar al sitio #[i web] o de visita,  sino que ofrece nuevas características útiles.
 
-    p.mb-4 Para afianzar sus conocimientos y crear códigos QR, lo invitamos a ver el video CÓDIGO QR: Cómo crearlo y para qué sirve, el cual se encuentra en el material complementario.
+    p.mb-4 Para afianzar sus conocimientos y crear códigos QR, lo invitamos a ver el video Código QR: Cómo crearlo y para qué sirve, el cual se encuentra en el material complementario.
 
     .tarjeta.color-blue-gradient.p-4.mb-4
       .row.justify-content-center.mb-4
@@ -147,21 +148,22 @@
 
     separador
     #t_3_2.titulo-segundo(data-aos="fade-right")
-      .h3 3.2 Teléfonos inteligentes o smartphones
+      .h3 3.2 Teléfonos inteligentes o #[i smartphones]
 
-    .row.align-items-center.tarjeta.color-gray.p-4.mb-4
-      .col-lg-8   
-        p.mb-4 Un teléfono smartphone es un teléfono móvil (terminal, dispositivo) también llamado teléfono inteligente.
-        p.mb-4 En inglés, Smart significa inteligente y Phone teléfono. Dispone de un sistema operativo propio capaz de realizar tareas y funciones parecidas a las realizadas por los ordenadores. 
-        p El móvil funciona con una tarjeta (SIM) que nos facilita el operador o empresa con el que contratamos el servicio. En el contrato se especifican los servicios contratados: minutos de llamadas gratuitas, coste del resto de llamadas, coste de mensajes SMS, coste de la conexión a internet y otros servicios.
-      .col-lg-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img04.svg')
+    .row.mb-4
+      .col-lg-8.tarjeta.color-special.d-flex.align-items-center.p-4
+        div
+          p.mb-4 Un teléfono #[i smartphone] es un teléfono móvil (terminal, dispositivo) también llamado teléfono inteligente.
+          p.mb-4 En inglés, Smart significa inteligente y #[i Phone] teléfono. Dispone de un sistema operativo propio capaz de realizar tareas y funciones parecidas a las realizadas por los ordenadores. 
+          p.mb-0 El móvil funciona con una tarjeta (SIM) que nos facilita el operador o empresa con el que contratamos el servicio. En el contrato se especifican los servicios contratados: minutos de llamadas gratuitas, coste del resto de llamadas, coste de mensajes SMS, coste de la conexión a internet y otros servicios.
+      .col-lg-4.BF01.p-0(data-aos="fade-left")
+        img.position-relative(src='@/assets/curso/tema3/img04.svg')
     separador
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
         p.mb-4 Según Zaragoza - ayuntamiento (2020):
-        p.mb-0 El teléfono tiene una pantalla táctil. Si deslizamos el dedo por ella podemos pasar a otra serie de pantallas con diferentes contenidos como si fueran las páginas de un libro. En todas ellas aparecen iconos (dibujos) que corresponden con iconos del sistema y aplicaciones (app) determinadas. Por ejemplo, al tocar el icono de WhatsApp se abre la aplicación (app). Los teléfonos llevan de fábrica incluidos algunos de estos iconos del sistema, y otros se pueden añadir al teléfono descargándolos de internet. Descargar es “bajar” de la red un programa a nuestro teléfono móvil. El sitio de descarga de app más conocido es #[strong PLAYSTORE]. Para su uso debemos tener wifi o datos.
+        p.mb-0 El teléfono tiene una pantalla táctil. Si deslizamos el dedo por ella podemos pasar a otra serie de pantallas con diferentes contenidos como si fueran las páginas de un libro. En todas ellas aparecen iconos (dibujos) que corresponden con iconos del sistema y aplicaciones (app) determinadas. Por ejemplo, al tocar el icono de WhatsApp se abre la aplicación (app). Los teléfonos llevan de fábrica incluidos algunos de estos iconos del sistema, y otros se pueden añadir al teléfono descargándolos de internet. Descargar es “bajar” de la red un programa a nuestro teléfono móvil. El sitio de descarga de app más conocido es #[strong Playstore]. Para su uso debemos tener wifi o datos.
       .col-lg-8.mb-4
         .tarjeta.color-light-blue-r.p-1
           p.mb-0.text-center Por ejemplo, tomemos un iPhone13 y conozcamos sus principales características.
@@ -170,22 +172,26 @@
       .col-lg-8.mb-4
         .cajon.color-primario.p-4(data-aos="fade-right") 
           .h4.mb-4
-            <div style="color:#7714B7;"> ● ¿Para qué se utiliza el smartphone? </div>
-          p.mb-0 Tanto el iOS como el Android son tecnología que nos facilita la comunicación instantánea en tiempo real a través de aplicaciones interactivas para realizar llamadas, compras, mensajes, correos, navegadores web, videollamadas, videojuegos, manejo de las redes sociales.
+            <div style="color:#7714B7;"> ● ¿Para qué se utiliza el #[i smartphone]? </div>
+          p.mb-0 Tanto el iOS como el Android son tecnología que nos facilita la comunicación instantánea en tiempo real a través de aplicaciones interactivas para realizar llamadas, compras, mensajes, correos, navegadores #[i web], videollamadas, videojuegos, manejo de las redes sociales.
       .col-lg-10.mb-4
         .h4.mb-4
           <div style="color:#7714B7;"> ● Sistemas operativos </div>
         p.mb-4 Los sistemas operativos que hemos visto fueron hechos para computadores de escritorio o computadores portátiles, pero los dispositivos móviles como teléfonos, tabletas y reproductores de mp3 son muy diferentes, por eso sus sistemas operativos son más simples, orientados hacia la conectividad inalámbrica y a necesidades específicas.
+    
+    .row.justify-content-center.bgImg02.mb-4  
       .col-lg-8.mb-4
         .tarjeta.color-light-blue-r.p-1
-          p.text-center La siguiente imagen nos presenta cuáles son los sistemas operativos de los smartphones.
-      .col-lg-6.mb-4
+          p.text-center La siguiente imagen nos presenta cuáles son los sistemas operativos de los #[i smartphones].
+      .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
           h5 Figura 6.
-          span Sistemas operativos smartphones: Google Android, Apple iOS y Windows Phone
+          span Sistemas operativos #[i smartphones]: Google Android, Apple iOS y Windows #[i Phone]
         figure(data-aos="flip-up")
           img(src='@/assets/curso/tema3/img06.png')
           figcaption Nota: GCF AprendeLibre, 2021.
+
+    .row.justify-content-center.mb-4 
       .col-lg-10.mb-4
         .h4.mb-4
           <div style="color:#7714B7;"> ● Qué es el sistema operativo iOS </div>  
@@ -195,18 +201,18 @@
           img(src='@/assets/curso/tema3/img07.svg')
           .tarjeta.color-light-blue.p-4
             br
-            p iOS es un sistema operativo lanzado y utilizado por Apple. Su nombre proviene de iPhone OS. Es decir, iPhone Operative System o Sistema Operativo de iPhone. Utilizando las siglas, iOS. Se lanzó originalmente para el teléfono de la marca, aunque también se ha utilizado durante años en otros dispositivos de la compañía como en algunos de los reproductores de música iPod o en las tabletas iPad (hasta la llegada de iPadOS)
+            p iOS es un sistema operativo lanzado y utilizado por Apple. Su nombre proviene de iPhone OS. Es decir, iPhone #[i Operative System] o Sistema Operativo de iPhone. Utilizando las siglas, iOS. Se lanzó originalmente para el teléfono de la marca, aunque también se ha utilizado durante años en otros dispositivos de la compañía como en algunos de los reproductores de música iPod o en las tabletas iPad (hasta la llegada de iPadOS)
       .col-lg-10.mb-3  
-        p.mb-4 Se trata de un sistema cerrado que no puedes utilizar salvo en dispositivos de marca Apple. La gran diferencia con Android es esta: el sistema operativo de Google puede instalarse en infinidad de teléfonos de todas las marcas, pero iOS es un sistema cerrado y exclusivo para los aparatos de la marca de Cupertino. No para los demás. Al igual que otros sistemas operativos móviles, iOS nos permite instalar aplicaciones para añadir funciones a las que vienen por defecto en el smartphone. Es decir, más allá del teléfono o los mensajes puedes visitar la App Store en busca de aplicaciones que cumplan alguna función que necesitas, aprender inglés o hacer la compra.
+        p.mb-4 Se trata de un sistema cerrado que no puedes utilizar salvo en dispositivos de marca Apple. La gran diferencia con Android es esta: el sistema operativo de Google puede instalarse en infinidad de teléfonos de todas las marcas, pero iOS es un sistema cerrado y exclusivo para los aparatos de la marca de Cupertino. No para los demás. Al igual que otros sistemas operativos móviles, iOS nos permite instalar aplicaciones para añadir funciones a las que vienen por defecto en el #[i smartphone]. Es decir, más allá del teléfono o los mensajes puedes visitar la App Store en busca de aplicaciones que cumplan alguna función que necesitas, aprender inglés o hacer la compra.
 
     .row.justify-content-center.mb-4
       .col-lg-10.tarjeta.color-gray-gradient
         .row.justify-content-center
           .col-lg-12.mb-4
             br
-          .col-lg-2.d-flex.mb-4
+          .col-lg-2.col-4.d-flex.mb-4
             img(src='@/assets/curso/tema3/img08.png')
-          .col-lg-8.mb-4
+          .col-8.mb-4
             .h4.mb-4
               <div style="color:#7714B7;"> ● Qué es el sistema operativo Android </div>  
             p.mb-4  “Muchas veces se piensa que Android es un teléfono o una tableta, pero no es así. Android es el sistema operativo que utilizan algunos dispositivos móviles para poder funcionar. Es decir, se trata de todo aquello que puedes ver y con lo que puedes interactuar desde la pantalla de su equipo. Antes de sumergirnos y profundizar sobre todo lo que puedes hacer en el fantástico mundo de Android, te mostraremos de una forma muy resumida cómo fue el origen de este sistema operativo”. (GCF AprendeLibre, 2020)

@@ -16,45 +16,45 @@
         SlyderF(columnas="col-12")
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img01.svg')
-            p.text-bold.text-center.mb-0 Las estrategias de comunicación.
+            p.text-bold.text-center.mb-0 Las estrategias de comunicación
           
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img02.svg')
-            p.text-bold.text-center.mb-0 La publicidad.
+            p.text-bold.text-center.mb-0 La publicidad
           
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img03.svg')
-            p.text-bold.text-center.mb-0 Las ventas.
+            p.text-bold.text-center.mb-0 Las ventas
           
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img04.svg')
             p.text-bold.text-center.mb-0 Relaciones públicas
           
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img05.svg')
-            p.text-bold.text-center.mb-0 Los medios de pago.
+            p.text-bold.text-center.mb-0 Los medios de pago
           
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img06.svg')
-            p.text-bold.text-center.mb-0 La creatividad.
+            p.text-bold.text-center.mb-0 La creatividad
           
           .tarjeta.color-light-blue.p-4
             .row.justify-content-center.mb-4
-              .col-lg-2
+              .col-lg-2.col-4
                 img(src='@/assets/curso/tema1/img07.svg')
-            p.text-bold.text-center.mb-0 Las nuevas experiencias al cliente.
+            p.text-bold.text-center.mb-0 Las nuevas experiencias al cliente
 
     p.mb-4 El plan tiene como fin persuadir o convencer al público objetivo que los productos o servicios que ofrece la empresa son mejor que la competencia, satisface sus necesidades y le brinda facilidad y valor agregado a la marca.
 
@@ -63,9 +63,9 @@
       span Plan promocional
 
     .row.justify-content-center.mb-4
-      .col-lg-2(data-aos="fade-right")
+      .col-lg-2.col-3(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img08.svg')
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-7.col-8(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img09.svg')
     
     .row.justify-content-center.mb-4
@@ -79,7 +79,7 @@
           .col-lg-8
             img(src='@/assets/curso/tema1/img10.svg')
         .bloque-texto-c.color-secundario.p-4
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left
           h4.mb-2 Promoción es una campaña publicitaria que se hace de un determinado producto o servicio durante un tiempo limitado mediante una oferta atractiva
           span - Martínez, 2015
       .col-lg-6(data-aos="fade-left")
@@ -87,7 +87,7 @@
           .col-lg-8
             img(src='@/assets/curso/tema1/img11.svg')
         .bloque-texto-c.color-secundario.p-4
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left
           h4.mb-2 Un plan de promoción de ventas consiste en la realización de incentivos a corto plazo para fomentar la compra o venta de un producto
           span - Conexionesan, 2015
           br
@@ -111,7 +111,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img13.png')})`}"
           )
@@ -137,7 +137,7 @@
           .col-lg-6
             img(src='@/assets/curso/tema1/img14.svg')
         .bloque-texto-c.color-secundario.p-4.mb-4
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left
           h4.mb-2 Un ejemplo básico para definir lo que es la omnicanalidad es cuando un usuario mantiene comunicación con una empresa a través de sus redes sociales, pero al mismo tiempo tiene la disponibilidad de enviar un correo electrónico y también visitar su sucursal física
           span - Samsing, 2021
           
@@ -235,7 +235,7 @@
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next
         
-        p.mb-4Para complementar el concepto de omnicanalidad, lo invitamos a visitar el video Omnicanalidad & Logística en concepto logístico, el cual se encuentra en el material complementario.
+        p.mb-4 Para complementar el concepto de omnicanalidad, lo invitamos a visitar el video Omnicanalidad & Logística en concepto logístico, el cual se encuentra en el material complementario.
         hr
 
     .h4.mb-4
@@ -244,32 +244,48 @@
     p.mb-4 Para desarrollar estrategias de omnicanalidad, es importante manejar diferentes herramientas tecnológicas y coordinar el manejo de la información que será enviada logrando una relación permanente cliente-marca. Seguidamente, los principales beneficios que se obtienen con la omnicanalidad son:
 
     #MapaGroup01.row.justify-content-center.tarjeta.color-secundario-collapse.p-4.mb-4
-      .col-sm-6.col-md-3
+      .col-sm-6.col-md-6.col-lg-3
         button.buttom.color-primario.p-3.mb-4.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
-          p.mb-0.text-bold.text-center Branding
-      .col-sm-6.col-md-3
+          .row.justify-content-center
+            .col-lg-10.col-sm-6
+              p.mb-0.text-bold Branding
+      .col-sm-6.col-md-6.col-lg-3
         button.buttom.color-primario.p-3.mb-4.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
-          p.mb-0.text-bold.text-center Productividad
-      .col-sm-6.col-md-3
+          .row.justify-content-center
+            .col-lg-10.col-sm-6
+              p.mb-0.text-bold Productividad
+      .col-sm-6.col-md-6.col-lg-3
         button.buttom.color-primario.p-3.mb-4.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
-          p.mb-0.text-bold.text-center Mayores conversiones
-      .col-sm-6.col-md-3
+          .row.justify-content-center
+            .col-lg-10.col-sm-6
+              p.mb-0.text-bold Mayores conversiones
+      .col-sm-6.col-md-6.col-lg-3
         button.buttom.color-primario.p-3.mb-4.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4')
-          p.mb-0.text-bold.text-center Recopilación de información
+          .row.justify-content-center
+            .col-lg-10.col-sm-6
+              p.mb-0.text-bold Recopilación de información
 
       .col-lg-10.position-relative
         .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
-          p.text-center La marca se da a conocer por los diferentes canales de comunicación.
+          .row.justify-content-center
+            .col-lg-10.col-sm-8
+              p.text-center La marca se da a conocer por los diferentes canales de comunicación.
         .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
-          p.text-center Permite el control de las acciones y movimientos de la empresa hacia los servicios que presta a los consumidores.
+          .row.justify-content-center
+            .col-lg-10.col-sm-8
+              p.text-center Permite el control de las acciones y movimientos de la empresa hacia los servicios que presta a los consumidores.
         .multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
-          p.text-center El cliente puede definir si quiere compras en la tienda física, 
-            strong #[i e-commerce ]
-            | o redes sociales.
+          .row.justify-content-center
+            .col-lg-10.col-sm-8
+              p.text-center El cliente puede definir si quiere compras en la tienda física, 
+                strong #[i e-commerce ]
+                | o redes sociales.
         .multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
-          p.text-center Tener los datos de los clientes permite realizar seguimiento a sus preferencias de compras.
+          .row.justify-content-center
+            .col-lg-10.col-sm-8
+              p.text-center Tener los datos de los clientes permite realizar seguimiento a sus preferencias de compras.
 
-    p.mb-4 Tener los datos de los clientes permite realizar seguimiento a sus preferencias de compras.
+    p.mb-4 En la siguiente imagen se pueden observar los consejos a tener en cuenta en el momento que es utilizada la omnicanalidad.
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
@@ -277,13 +293,13 @@
           h5 Figura 4.
           span Consejos para la Omnicanalidad
       .col-lg-10.mb-4(data-aos="flip-up")
-        img(src='@/assets/curso/tema1/img27.svg')
+        img(src='@/assets/curso/tema1/img27.png')
 
       .col-lg-10.mb-4
         p Es así como el proceso para integrar diferentes canales, tanto físicos como digitales, genera una experiencia no fragmentada de compra a los consumidores y esto permite que la experiencia del cliente empiece en una plataforma y continúe en otros canales sin que se pierda la comunicación anterior. Por lo siguiente podemos nombrar los canales que son más utilizados en la omnicanalidad:
 
       .col-lg-10
-        TabsB.color-acento-contenido.mb-5
+        TabsB.color-acento-botones.mb-5
           .py-4.py-md-5(titulo="Redes sociales" :icono="require('@/assets/curso/tema1/img28.svg')")
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0
