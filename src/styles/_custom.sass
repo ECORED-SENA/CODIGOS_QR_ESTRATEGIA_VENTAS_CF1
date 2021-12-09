@@ -31,6 +31,8 @@
 .tarjeta.color-blue-gradient-r
   background: linear-gradient(to bottom, #DBFEFF, #FEFEFE)
   border-radius: 0px
+  position: relative
+  top: -100px
 
 .tarjeta.color-violet
   background: #D4B8E8
@@ -88,7 +90,7 @@
   bottom: -18px
 
 .tarjeta.color-white
-  border-bottom: 3px solid #E4D0F1
+  border-bottom: 3px solid #E4D0F1 !important
 
 .cajon.color-acento-contenido
   background-color: #CCF6F7
@@ -115,7 +117,19 @@
     left: 0
     right: 50%
     bottom: 0
-  
+
+.BF02
+  position: relative
+  &::before
+    background-color:#DBFEFF
+    content: ""
+    display: block
+    position: absolute
+    top: 55%
+    left: 0
+    right: 0
+    bottom: 0
+
 .bgImg01
   background-image: url("../assets/curso/tema2/bg01.svg")
   background-size: cover

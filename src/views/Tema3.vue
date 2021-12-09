@@ -75,7 +75,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/DGiOxCHwmZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
         .tarjeta.color-gray-r.p-4
@@ -154,7 +154,7 @@
       .col-lg-8.tarjeta.color-special.d-flex.align-items-center.p-4
         div
           p.mb-4 Un teléfono #[i smartphone] es un teléfono móvil (terminal, dispositivo) también llamado teléfono inteligente.
-          p.mb-4 En inglés, Smart significa inteligente y #[i Phone] teléfono. Dispone de un sistema operativo propio capaz de realizar tareas y funciones parecidas a las realizadas por los ordenadores. 
+          p.mb-4 En inglés, #[i Smart] significa inteligente y #[i Phone] teléfono. Dispone de un sistema operativo propio capaz de realizar tareas y funciones parecidas a las realizadas por los ordenadores. 
           p.mb-0 El móvil funciona con una tarjeta (SIM) que nos facilita el operador o empresa con el que contratamos el servicio. En el contrato se especifican los servicios contratados: minutos de llamadas gratuitas, coste del resto de llamadas, coste de mensajes SMS, coste de la conexión a internet y otros servicios.
       .col-lg-4.BF01.p-0(data-aos="fade-left")
         img.position-relative(src='@/assets/curso/tema3/img04.svg')
@@ -211,7 +211,7 @@
           .col-lg-12.mb-4
             br
           .col-lg-2.col-4.d-flex.mb-4
-            img(src='@/assets/curso/tema3/img08.png')
+            img(src='/downloads/android.png')
           .col-8.mb-4
             .h4.mb-4
               <div style="color:#7714B7;"> ● Qué es el sistema operativo Android </div>  

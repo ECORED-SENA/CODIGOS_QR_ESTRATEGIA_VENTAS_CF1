@@ -40,74 +40,76 @@
         p.mb-4 La publicidad cumple un papel fundamental en las empresas, permite seducir o dar a conocer a una audiencia los productos y servicios por diferentes canales de comunicación de manera #[i offline u online].
 
     .row.justify-content-center
-      .col-lg-1.col-md-3.col-sm-3(data-aos="fade-down")
+      .col-lg-1.col-3(data-aos="fade-down")
         img.img-relative(src='@/assets/curso/tema2/img01.svg')
     .row.justify-content-center.mb-4
       .col-lg-4.tarjeta.color-gray.p-4(data-aos="fade-up")
         p.mb-4 Conozcamos algunas definiciones de publicidad:
 
-    .row.justify-content-center.mb-4
-      .col-lg-8
-        SlyderF(columnas="col-12")(data-aos="fade-right")
-          .tarjeta.color-white.p-4
-            p.text-bold.text-center.mb-4 Según el profesor Eguizábal (2007)
-            p “Fue sin duda la Psicología la primera disciplina en ocuparse con cierta seriedad de la publicidad con el libro #[i the psychology advertising]”. También nos dice que la publicidad no son solo anuncios es una actividad empresarial con carácter comunicativo que se manifiesta con esos mensajes llamados anuncios.
-          .tarjeta.color-white.p-4
-            p.text-bold.text-center.mb-4 Según Kotler
-            p “La publicidad es cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por un patrocinador identificado”.
-          .tarjeta.color-white.p-4
-            p.text-bold.text-center.mb-4 La AMA
-            p “La publicidad en los años setentas era cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por cuenta de alguien identificado”.
-          .tarjeta.color-white.p-4
-            p.text-bold.text-center.mb-4 Según Aaker y Myers
-            p “La publicidad es conocida como un medio de comunicación masiva que involucra a un responsable, al anunciante, que normalmente contrata a una organización de medios para que transmita un anuncio que fue creado por una agencia”.
-          .tarjeta.color-white.p-4
-            p.text-bold.text-center.mb-4 Según Torres (2010)
-            p “La publicidad es un conjunto de decisiones, preparadas de antemano, para el logro de un objetivo designado, teniendo en cuenta todas las posibles reacciones de los adversarios”.
-          
-    .row.justify-content-center.tarjeta.color-blue-gradient-r.p-4.mb-4
-      .col-lg-10.mb-4
-        .h4.mb-4
-          <div style="color:#7714B7;"> ● Tipos de publicidad </div>
-        p.mb-0 Para dar a conocer una empresa, se utilizan diferentes medios publicitarios que nos ayudarán a posicionar la marca en el mercado. Para poder desarrollarlo se emplea el material impreso físico que el cliente puede recibir y dedicarle el tiempo para su revisión o lectura. A continuación, podemos ver los tipos de publicidad empleados:
-      .col-lg-8
-        LineaTiempoD.color-secundario.mb-5
-          .row.justify-content-center(numero="1" titulo="Publicidad impresa")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Es todo el material POP como son los folletos, volantes, revistas especializadas, plegables, insertos, cupones o bonos que nos ayudan a impulsar y generar la acción de ventas por lo general en la tienda física. Este material se le entrega al cliente con toda la información de los productos o una campaña especial de temporada con descuentos especiales.
-              figure
-                img(src='@/assets/curso/tema2/img02.png')
-          .row.justify-content-center(numero="2" titulo="Publicidad <em>online</em>")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Es la que realizamos en internet como son páginas #[i web]. redes sociales, buscadores.
-              p.mb-4 Está de moda por su bajo costo de inversión y permite una interacción en tiempo real por medio de las herramientas tecnológicas.
-              figure
-                img(src='@/assets/curso/tema2/img03.png')
-          .row.justify-content-center(numero="3" titulo="Publicidad en medios de comunicación")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Las empresas deciden utilizar para realizar la publicidad de sus productos, medios tradicionales como la televisión, la cual es el medio favorito de los anunciantes y la radio que cada vez utilizan menos para pautar.
-              figure
-                img(src='@/assets/curso/tema2/img04.png')
-          .row.justify-content-center(numero="4" titulo="Publicidad exterior")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Es uno de los tipos de publicidad que continuamente innova y genera tendencias con el material que crean las agencias como vallas publicitarias, avisos luminosos, poster, afiches publicitarios, entre otros.
-              figure
-                img(src='@/assets/curso/tema2/img05.png')
-          .row.justify-content-center(numero="5" titulo="Webinar")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Todo tipo de eventos digitales los podemos realizar de manera sincrónica con los clientes en horarios cómodos para ellos. Permite intervenir con varias personas y siempre se encuentra un moderador a cargo.
-              figure
-                img(src='@/assets/curso/tema2/img06.png')
-          .row.justify-content-center(numero="6" titulo="Experiencia cliente IA")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Crear actividades para que el cliente interactúe con la marca es una opción. Estos pueden ser juegos, retos o actividades.
-              figure
-                img(src='@/assets/curso/tema2/img07.png')
-          .row.justify-content-center(numero="7" titulo="Redes sociales")
-            .col-md-11.mb-4.mb-md-0
-              p.mb-4 Permite por medio de la internet crear contenido de la marca para ser cargado a las diferentes plataformas digitales generando relación entre clientes y usuarios con intereses  comunes.
-              figure
-                img(src='@/assets/curso/tema2/img08.png')
+    .BF02.p-4
+      .row.justify-content-center.mb-4.p-4
+        .col-lg-8
+          SlyderF(columnas="col-12")(data-aos="fade-right")
+            .tarjeta.color-white.p-4
+              p.text-bold.text-center.mb-4 Según el profesor Eguizábal (2007)
+              p “Fue sin duda la Psicología la primera disciplina en ocuparse con cierta seriedad de la publicidad con el libro #[i the psychology advertising]”. También nos dice que la publicidad no son solo anuncios es una actividad empresarial con carácter comunicativo que se manifiesta con esos mensajes llamados anuncios.
+            .tarjeta.color-white.p-4
+              p.text-bold.text-center.mb-4 Según Kotler
+              p “La publicidad es cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por un patrocinador identificado”.
+            .tarjeta.color-white.p-4
+              p.text-bold.text-center.mb-4 La AMA
+              p “La publicidad en los años setentas era cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por cuenta de alguien identificado”.
+            .tarjeta.color-white.p-4
+              p.text-bold.text-center.mb-4 Según Aaker y Myers
+              p “La publicidad es conocida como un medio de comunicación masiva que involucra a un responsable, al anunciante, que normalmente contrata a una organización de medios para que transmita un anuncio que fue creado por una agencia”.
+            .tarjeta.color-white.p-4
+              p.text-bold.text-center.mb-4 Según Torres (2010)
+              p “La publicidad es un conjunto de decisiones, preparadas de antemano, para el logro de un objetivo designado, teniendo en cuenta todas las posibles reacciones de los adversarios”.
+    <br><br><br>
+    .tarjeta.color-blue-gradient-r.p-4.mb-4
+      .row.justify-content-center 
+        .col-lg-10.mb-4
+          .h4.mb-4
+            <div style="color:#7714B7;"> ● Tipos de publicidad </div>
+          p.mb-0 Para dar a conocer una empresa, se utilizan diferentes medios publicitarios que nos ayudarán a posicionar la marca en el mercado. Para poder desarrollarlo se emplea el material impreso físico que el cliente puede recibir y dedicarle el tiempo para su revisión o lectura. A continuación, podemos ver los tipos de publicidad empleados:
+        .col-lg-8
+          LineaTiempoD.color-secundario.mb-5
+            .row.justify-content-center(numero="1" titulo="Publicidad impresa")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Es todo el material POP como son los folletos, volantes, revistas especializadas, plegables, insertos, cupones o bonos que nos ayudan a impulsar y generar la acción de ventas por lo general en la tienda física. Este material se le entrega al cliente con toda la información de los productos o una campaña especial de temporada con descuentos especiales.
+                figure
+                  img(src='@/assets/curso/tema2/img02.png')
+            .row.justify-content-center(numero="2" titulo="Publicidad <em>online</em>")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Es la que realizamos en internet como son páginas #[i web]. redes sociales, buscadores.
+                p.mb-4 Está de moda por su bajo costo de inversión y permite una interacción en tiempo real por medio de las herramientas tecnológicas.
+                figure
+                  img(src='@/assets/curso/tema2/img03.png')
+            .row.justify-content-center(numero="3" titulo="Publicidad en medios de comunicación")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Las empresas deciden utilizar para realizar la publicidad de sus productos, medios tradicionales como la televisión, la cual es el medio favorito de los anunciantes y la radio que cada vez utilizan menos para pautar.
+                figure
+                  img(src='@/assets/curso/tema2/img04.png')
+            .row.justify-content-center(numero="4" titulo="Publicidad exterior")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Es uno de los tipos de publicidad que continuamente innova y genera tendencias con el material que crean las agencias como vallas publicitarias, avisos luminosos, poster, afiches publicitarios, entre otros.
+                figure
+                  img(src='@/assets/curso/tema2/img05.png')
+            .row.justify-content-center(numero="5" titulo="<em>Webinar</em>")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Todo tipo de eventos digitales los podemos realizar de manera sincrónica con los clientes en horarios cómodos para ellos. Permite intervenir con varias personas y siempre se encuentra un moderador a cargo.
+                figure
+                  img(src='@/assets/curso/tema2/img06.png')
+            .row.justify-content-center(numero="6" titulo="Experiencia cliente IA")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Crear actividades para que el cliente interactúe con la marca es una opción. Estos pueden ser juegos, retos o actividades.
+                figure
+                  img(src='@/assets/curso/tema2/img07.png')
+            .row.justify-content-center(numero="7" titulo="Redes sociales")
+              .col-md-11.mb-4.mb-md-0
+                p.mb-4 Permite por medio de la internet crear contenido de la marca para ser cargado a las diferentes plataformas digitales generando relación entre clientes y usuarios con intereses  comunes.
+                figure
+                  img(src='@/assets/curso/tema2/img08.png')
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-4
@@ -122,13 +124,15 @@
         p.text-center.mb-0 Las tendencias innovadoras actuales para empresas son:
       .col-lg-10.tarjeta.color-gradient-bottom.mb-4
         LineaTiempoB.mb-4(:datos="datosLineaTiempoB")
-        figure.mb-4 
-          img(src='@/assets/curso/hr.svg')
-        p Y las herramientas tecnológicas que se están implementados en esta nueva era digital son:
+      .col-lg-8.mb-4
+        figure.mb-4
+          img(src='@/assets/curso/img99.svg')
+        p.text-center Y las herramientas tecnológicas que se están implementados en esta nueva era digital son:
       .col-lg-10.mb-4
         SlyderC.p-0(:datos="datosSlyder")
       .col-lg-10
-        img(src='@/assets/curso/hr.svg')
+        figure.mb-4
+          img(src='@/assets/curso/img99.svg')
     
     .h4.mb-4
       <div style="color:#7714B7;"> ● Piezas publicitarias y material de promoción </div>
