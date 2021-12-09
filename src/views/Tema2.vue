@@ -251,7 +251,7 @@ export default {
         titulo: 'Códigos QR',
         texto:
           'Contiene información digital de los productos y servicios, es más fácil su uso y no se limita como el código de barras, porque permite descargar la información desde cualquier teléfono celular, iPad, o Tablet. <br><br>Es una combinación de letras o de números que identifican un producto o a una persona, y permiten realizar determinadas operaciones o manejar algunos aparatos. <br><br>También se define como una combinación de barras y cuadros que acompaña a un producto o unidad de consumo para que pueda ser leído y descifrado mediante un lector óptico que transmite los datos a una máquina o una computadora. <br><br>Para obtener esta aplicación se puede descargar gratuitamente del Play Store (Google) App Store (Apple) o BlackBerry World (Blackberry) AppGallery (plataforma oficial para Huawei)',
-        imagen: require('@/assets/curso/tema2/img17.png'),
+        imagen: require('@/assets/curso/tema2/img18.png'),
       },
     ],
   }),
