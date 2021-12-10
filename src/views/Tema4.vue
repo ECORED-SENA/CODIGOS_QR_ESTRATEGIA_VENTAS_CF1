@@ -42,7 +42,7 @@
       .col-lg-10.mb-4
         .bloque-texto-c.color-secundario.p-4(data-aos="fade-right")
           i.fas.fa-quote-left
-          h4.mb-2 Definen el brand equity o capital de marca como “el valor añadido que se asigna a un producto o servicio a partir de la marca que ostentan. Este valor puede reflejarse en la forma en que los consumidores piensan, sienten y actúan respecto de la marca, así como en los precios, la participación de mercado y la rentabilidad que genera la marca para la empresa”.
+          h4.mb-2 Definen el <em>brand equity</em> o capital de marca como “el valor añadido que se asigna a un producto o servicio a partir de la marca que ostentan. Este valor puede reflejarse en la forma en que los consumidores piensan, sienten y actúan respecto de la marca, así como en los precios, la participación de mercado y la rentabilidad que genera la marca para la empresa”.
           span - Kotler y Keller (p.243)
       .col-lg-4.mb-4
         img(src='@/assets/curso/tema4/img01.png')(data-aos="fade-right")
