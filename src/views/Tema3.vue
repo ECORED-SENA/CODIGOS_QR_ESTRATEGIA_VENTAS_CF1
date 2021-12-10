@@ -31,11 +31,11 @@
       .col-lg-10
         p.mb-4 Según Pere Escorsa & Jaume Valls (2003):
         .row.justify-content-center.tarjeta.color-violet-r(data-aos="fade-right")
-          .col-lg-10.col-12
+          .col-lg-10.col-8.col-sm-12
             .row.p-4
               br
               p Basados en experiencias anteriores, la creatividad y la inspiración del modelo de innovación que se quiere aplicar tecnológico o comercial llevamos a la empresa a un proceso de transformación de sus productos. Con ayuda de la imaginación, aplicando tecnología y uso de la #[i web] y excelente un talento humano no solo se innova se pueden generar nuevas estrategias de comunicación, modelos de negocios, nuevas líneas de productos, alianzas, y punto de venta que permiten la expansión a nivel global.     
-          .col-lg-2.col-md-4.col-6.d-flex
+          .col-lg-2.col-4.col-sm-6.d-flex
             img(src='@/assets/curso/tema3/img01.png')(data-aos="fade-left")
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
@@ -211,7 +211,7 @@
           .col-lg-12.mb-4
             br
           .col-lg-2.col-4.d-flex.mb-4
-            img(src='@/assets/curso/tema3/android.png')
+            img(src='/downloads/android.png')
           .col-8.mb-4
             .h4.mb-4
               <div style="color:#7714B7;"> ● Qué es el sistema operativo Android </div>  

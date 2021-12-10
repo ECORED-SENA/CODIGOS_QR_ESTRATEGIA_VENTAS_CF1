@@ -99,76 +99,75 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Adobe Stock. (2020). ',
+      referencia: 'Adobe Stock. (2020).',
       link:
         'https://stock.adobe.com/es/search?as_audience=srp&as_campaign=Freepik&get_facets=1&order=relevance&safe_search=1&as_content=popup&k=codigo+de+barras&tduid=32b409811ff10fc557a6dc41189ec2a6&as_channel=affiliate&as_campclass=redirect&as_source=arvato&asset_i',
     },
     {
       referencia:
-        'Conexionesan. (30 de junio de 2015). Consideraciones para realizar una promoción de ventas exitosa. ',
+        'Conexionesan. (30 de junio de 2015). Consideraciones para realizar una promoción de ventas exitosa.',
       link:
         'https://www.esan.edu.pe/apuntes-empresariales/2015/06/consideraciones-para-realizar-una-promocion-ventas-exitosa/',
     },
     {
       referencia:
-        'Freepik. (2021). Dispositivos e iconos tecnológicos conectados al planeta tierra digital. Foto Premium. ',
+        'Freepik. (2021). Dispositivos e iconos tecnológicos conectados al planeta tierra digital. Foto Premium.',
       link:
         'https://www.freepik.es/fotos-premium/dispositivos-e-iconos-tecnologicos-conectados-al-planeta-tierra-digital_5074433.htm',
     },
     {
       referencia:
-        'GCF AprendeLibre. (2020). ¿Cómo usar Android? - Qué es Android. ',
+        'GCF AprendeLibre. (2020). ¿Cómo usar Android? - Qué es Android.',
       link: 'https://edu.gcfglobal.org/es/como-usar-android/que-es-android/1/',
     },
     {
-      referencia:
-        'GCF AprendeLibre. (2021). Sistemas operativos para móviles. ',
+      referencia: 'GCF AprendeLibre. (2021). Sistemas operativos para móviles',
       link:
         'https://edu.gcfglobal.org/es/informatica-basica/sistemas-operativos-para-dispositivos-moviles/1/',
     },
     {
       referencia:
-        'Martínez, I. (03 de junio de 2015). ¿Qué es y cómo se realiza un plan promocional? ',
+        'Martínez, I. (03 de junio de 2015). ¿Qué es y cómo se realiza un plan promocional?',
       link:
         'https://blog.comunicae.es/que-es-y-como-se-realiza-un-plan-promocional/',
     },
     {
       referencia:
-        'Omnicanalidad & Logística en concepto logístico. (2020). youtube.com. ',
+        'Omnicanalidad & Logística en concepto logístico. (2020). youtube.com.',
       link: 'https://www.youtube.com/watch?v=6XZcSbYZ1Vg&t=10s',
     },
     {
       referencia:
-        'Pere Escorsa , C., & Jaume Valls , P. (Septiembre de 2003). Tecnología e innovación en la empresa. ',
+        'Pere Escorsa , C., & Jaume Valls , P. (Septiembre de 2003). Tecnología e innovación en la empresa.',
       link:
         'https://www.researchgate.net/profile/Jaume-Valls-Pasola/publication/260210824_Tecnologia_e_innovacion_en_la_empresa/links/5eecb559299bf1faac629d11/Tecnologia-e-innovacion-en-la-empresa.pdf',
     },
     {
       referencia:
-        'Samsing, C. (2021). HubSpot. Omnicanalidad: 12 ejemplos excepcionales de estrategias omnicanal. ',
+        'Samsing, C. (2021). HubSpot. Omnicanalidad: 12 ejemplos excepcionales de estrategias omnicanal',
       link:
         'https://blog.hubspot.es/service/ejemplos-excepcionales-experiencia-omnicanal',
     },
     {
       referencia:
-        'UNITAG QR. (2020). ¿Cuáles son los diferentes tipos de códigos QR? ',
+        'UNITAG QR. (2020). ¿Cuáles son los diferentes tipos de códigos QR?',
       link:
         'https://www.unitag.io/es/qrcode/what-are-the-different-types-of-qrcodes',
     },
     {
       referencia:
-        'Universidad del Istmo de Guatemala -UNIS-. (2004). La publicidad. Tesis de grado. ',
+        'Universidad del Istmo de Guatemala -UNIS-. (2004). La publicidad. Tesis de grado.',
       link: 'http://glifos.unis.edu.gt/digital/tesis/2004/10394.pdf',
     },
     {
       referencia:
-        'Zaragoza - ayuntamiento. (2020). Manual Básico de Smartphone. ',
+        'Zaragoza - ayuntamiento. (2020). Manual Básico de Smartphone.',
       link:
         'https://www.zaragoza.es/contenidos/sectores/mayores/smartphone.pdf',
     },
     {
       referencia:
-        'ZONE, A. a., & García, R. (11 de junio de 2021). AZ adsl Zone. ¿Qué es iOS? Todo sobre el sistema operativo de Apple. ',
+        'ZONE, A. a., & García, R. (11 de junio de 2021). AZ adsl Zone. ¿Qué es iOS? Todo sobre el sistema operativo de Apple.',
       link: 'https://www.adslzone.net/reportajes/software/que-es-ios/',
     },
   ],
@@ -235,6 +234,10 @@ export default {
         'MasContainer. (2020). Omnicanalidad & Logística en concepto logístico (Video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=6XZcSbYZ1Vg&t=10s',
+    },
+    {
+      texto:
+        'Rodríguez, M.A. (s.f.). ¿Sabes quién creó y para qué sirve el código bidimensional o QR?',
     },
     {
       texto:
