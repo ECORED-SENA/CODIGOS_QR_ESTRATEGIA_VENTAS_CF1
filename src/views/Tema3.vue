@@ -31,7 +31,7 @@
       .col-lg-10
         p.mb-4 Según Pere Escorsa & Jaume Valls (2003):
         .row.justify-content-center.tarjeta.color-violet-r(data-aos="fade-right")
-          .col-lg-10.col-8.col-sm-12
+          .col-lg-10.col-sm-12
             .row.p-4
               br
               p Basados en experiencias anteriores, la creatividad y la inspiración del modelo de innovación que se quiere aplicar tecnológico o comercial llevamos a la empresa a un proceso de transformación de sus productos. Con ayuda de la imaginación, aplicando tecnología y uso de la #[i web] y excelente un talento humano no solo se innova se pueden generar nuevas estrategias de comunicación, modelos de negocios, nuevas líneas de productos, alianzas, y punto de venta que permiten la expansión a nivel global.     
