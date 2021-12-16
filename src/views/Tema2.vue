@@ -58,7 +58,7 @@
               p “La publicidad es cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por un patrocinador identificado”.
             .tarjeta.color-white.p-4
               p.text-bold.text-center.mb-4 La AMA
-              p “La publicidad en los años setentas era cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por cuenta de alguien identificado”.
+              p “La publicidad en los años setenta era cualquier forma pagada de presentación y promoción no personal de ideas bienes y servicios por cuenta de alguien identificado”.
             .tarjeta.color-white.p-4
               p.text-bold.text-center.mb-4 Según Aaker y Myers
               p “La publicidad es conocida como un medio de comunicación masiva que involucra a un responsable, al anunciante, que normalmente contrata a una organización de medios para que transmita un anuncio que fue creado por una agencia”.
@@ -127,7 +127,7 @@
       .col-lg-8.mb-4
         figure.mb-4
           img(src='@/assets/curso/img99.svg')
-        p.text-center Y las herramientas tecnológicas que se están implementados en esta nueva era digital son:
+        p.text-center Y las herramientas tecnológicas que se están implementado en esta nueva era digital son:
       .col-lg-10.mb-4
         SlyderC.p-0(:datos="datosSlyder")
       .col-lg-10
@@ -137,7 +137,7 @@
     .h4.mb-4
       <div style="color:#7714B7;"> ● Piezas publicitarias y material de promoción </div>
     
-    p.mb-4 Las piezas publicitarias nos permiten recrear la mente del público, llamar la atención como se dice en merchandising, seducirlos, lograr que lo primero en la mente del cliente sea la marca de la empresa. A continuación, podemos observar el siguiente video donde se presentan las piezas publicitarias más conocidas:
+    p.mb-4 Las piezas publicitarias nos permiten recrear la mente del público, llamar la atención como se dice en #[i merchandising], seducirlos, lograr que lo primero en la mente del cliente sea la marca de la empresa. A continuación, podemos observar el siguiente video donde se presentan las piezas publicitarias más conocidas:
 
     figure
       .video

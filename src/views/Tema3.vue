@@ -121,7 +121,7 @@
             th Red inalámbrica
             td QR que contienen las credenciales de red inalámbrica.
           tr
-            th Enviar un MSM
+            th Enviar un SMS
             td Guarde el contenido y el número de teléfono del destinatario de un mensaje SMS.
           tr
             th Geolocalización

@@ -252,6 +252,7 @@
       .col-sm-6.col-md-6.col-lg-3
         button.buttom.color-primario.p-3.mb-4.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
           .row.justify-content-center
+            .indicador--hover(v-if="indicadorImagenZoom")
             .col-lg-10.col-sm-6
               p.mb-0.text-bold Productividad
       .col-sm-6.col-md-6.col-lg-3
@@ -332,7 +333,7 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    indicadorImagenZoom: true,
   }),
   mounted() {
     this.$nextTick(() => {
